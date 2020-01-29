@@ -9,3 +9,9 @@ https://www.hackerrank.com/challenges/reverse-a-linked-list/submissions/code/140
 ### Bits
 #### Flipping bits (Python3)
 https://www.hackerrank.com/challenges/flipping-bits/submissions/code/140346706
+
+# Tools and utils
+## codefactor.io
+https://www.codefactor.io/repository/github/dimabreeze/hackerrank.com
+## deepsource.io
+https://deepsource.io/gh/dimabreeze/hackerrank.com/
