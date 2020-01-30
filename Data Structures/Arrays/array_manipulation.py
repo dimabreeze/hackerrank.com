@@ -1,18 +1,19 @@
 #!/bin/python3
 import os
 
+
 # Complete the arrayManipulation function below.
-def arrayManipulation(n, queries):
-    arr = [0] * n
-    for q in queries:
+def arrayManipulation(numElements, listQueries):
+    arr = [0] * numElements
+    for q in listQueries:
         begin = q[0]
-        end   = q[1]
-        add   = q[2]
+        end = q[1]
+        add = q[2]
 
         arr[begin - 1] += add
-        if end < n:
+        if end < numElements:
             arr[end] -= add
-    
+
     init = 0
     maxSum = 0
     for a in arr:
@@ -20,6 +21,7 @@ def arrayManipulation(n, queries):
         if init > maxSum:
             maxSum = init
     return maxSum
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
