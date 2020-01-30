@@ -17,6 +17,13 @@
             "request": "launch",
             "program": "${workspaceFolder}\\Data Structures\\Trees\\decode_huffmans.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Py:DS.Trees.Kitty's Calcs on a Tree",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Data Structures\\Trees\\kittys_calcs__on_a_tree.py",
+            "console": "integratedTerminal"
         }
     ]
 }
