@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Py:Interview.Misc.Flipping bits",
+            "name": "Py:Algo.Bits.Flipping bits",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}\\Algorithms\\Bit Manipulation\\flipping_bits.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Py:DS.Trees.Decode Huffman",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Data Structures\\Trees\\decode_huffmans.py",
             "console": "integratedTerminal"
         }
     ]
